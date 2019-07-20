@@ -11,23 +11,7 @@ Given date and knows what correct output looks like, teaches the relation of dat
 >
 > $$ (x^i, y^i) \ where \ i \in m$$
 > $m$ is the number of training examples.  
-> Training set is given to learning algorithms to produce hypothesis $h(x)$ used to make prediction.  
->  
-> Accuracy of hypothesis is measured by the cost Function given by: 
-> 
-> $$ J(\theta) $$
-> Where theta is the arugments/weight of each feature.  
-> Find minimum of cost function to yield optimal hypothesis
-
-Divided into:
-
-(a) Regression  
-
-- [Linear Regression](Linear_regression).
-
-(b) Classification
-
-- [Logistic Regression](Logistic_regression).
+> Training set is given to learning algorithms to produce hypothesis $h(x)$ used to make prediction. Parameterized by $\Theta/\theta$ in many algorithms
 
 ## Unsupervised Learning
 
@@ -37,5 +21,8 @@ Machine derives structure to the data on it own, we don't know how the result wi
 
 ## Key Algorithms
 
-- [Gradient Decent](Gradient_descent).
-- [Normal Equation](Normal_equation.md)
+- [Gradient Decent](Gradient_descent.md).
+    - [Linear Regression](Linear_regression.md).
+        - [Normal Equation](Normal_equation.md).
+    - [Logistic Regression](Logistic_regression.md).
+- [Neural Networks](Neural_networks.md).

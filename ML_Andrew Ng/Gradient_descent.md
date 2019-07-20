@@ -1,6 +1,6 @@
 # Gradient Descent
 
-Given starting parameter $\theta$,  gradient descent aims to find the optimal solution for theta by finding the minimum of the cost function $J(\theta)$.
+Given starting parameter $\theta$,  gradient descent aims to find the optimal solution for $\theta$ by finding the minimum of the cost function $J(\theta)$.
 
 The general form of gradient descent is given by:
 

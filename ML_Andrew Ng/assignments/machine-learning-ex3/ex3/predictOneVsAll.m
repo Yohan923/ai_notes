@@ -30,10 +30,11 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+outputs = all_theta*transpose(X);
 
+[~,I] = max(outputs);
 
-
-
+p = transpose(I);
 
 
 % =========================================================================

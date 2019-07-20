@@ -36,8 +36,18 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+z = X*theta; %Xtheta = transpose(theta)X
+h = sigmoid(z);
 
+tmp = -1.*y.*(log(h))-(1-y).*(log(1-h));
 
+%unregularized
+J = 1/m*(sum(tmp));
+grad = (1/m)*transpose(X)*(h-y);
+
+%regularised
+J = J + ((lambda/(2*m))*sum(theta(2:end,:).*theta(2:end,:)));
+grad(2:end,:) = grad(2:end,:) + (lambda/m).*theta(2:end,:);
 
 
 
