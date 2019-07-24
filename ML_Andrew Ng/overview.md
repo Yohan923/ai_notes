@@ -19,10 +19,11 @@ Machine derives structure to the data on it own, we don't know how the result wi
 
 ---
 
-## Key Algorithms
+## Algorithms
 
 - [Gradient Decent](Gradient_descent.md).
-    - [Linear Regression](Linear_regression.md).
-        - [Normal Equation](Normal_equation.md).
-    - [Logistic Regression](Logistic_regression.md).
+- [Linear Regression](Linear_regression.md).
+- [Normal Equation](Normal_equation.md).
+- [Logistic Regression](Logistic_regression.md).
 - [Neural Networks](Neural_networks.md).
+
