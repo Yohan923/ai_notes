@@ -17,6 +17,10 @@ Given date and knows what correct output looks like, teaches the relation of dat
 
 Machine derives structure to the data on it own, we don't know how the result will look like, for example grouping data into clusters.
 
+## [Evaluation and metrics](Evaluations_and_metrics.md)
+How to choose or modify model to better performance and measure error
+
+
 ---
 
 ## Algorithms
@@ -26,4 +30,5 @@ Machine derives structure to the data on it own, we don't know how the result wi
 - [Normal Equation](Normal_equation.md).
 - [Logistic Regression](Logistic_regression.md).
 - [Neural Networks](Neural_networks.md).
+- [SVM(Support Vector Machines)](SVM.md).
 
