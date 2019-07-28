@@ -31,4 +31,6 @@ How to choose or modify model to better performance and measure error
 - [Logistic Regression](Logistic_regression.md).
 - [Neural Networks](Neural_networks.md).
 - [SVM(Support Vector Machines)](SVM.md).
+- [K-means](K_means.md).
+- [PCA(Principal component analysis)](PCA.md).
 
