@@ -41,3 +41,39 @@ $$
 $$
 
  We can also use cross validation set to find a good value for $\epsilon$ by taking the $\epsilon$ value with highest $F_1$ score.
+
+---
+
+## Extras
+
+### ```Multivariate Gaussian distribution```
+
+model $p(x)$ all in one go, $\mu$ and $\Sigma$ are covariance matrices.
+
+![Multivariate gaussian distribution](images\Anomaly_multivariate.jfif)
+
+Use this to correlate features automatically instead of needing to create new features in orginal model. A multivariate model with conturs being axis aligned is equivalent to the original model. 
+
+- mutivariate model is much more expensive than original model
+- must have larger number of examples than features such that $m>n$.
+- $\Sigma$ may be non-invertible if there are too little features and lots of redundant featrues.
+
+
+### Anomaly Vs Supervised:
+
+Anomaly:
+- large numbers of negative example, very low number of positive examples
+- many different number types of anomalies
+- future anomalies may be very different from what we have seen so far
+
+Supervised:
+- large number of negaive and positive examples.
+- future positives are similar to what have learned
+- large number of positive examples for algorithm to learn
+
+### Choosing data:
+
+- try to make sure data is gaussian, but even when not gaussian, algorithm may still work.
+- can use transformations such as log(), square, square root etc.
+
+

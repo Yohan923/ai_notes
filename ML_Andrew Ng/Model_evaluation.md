@@ -1,4 +1,4 @@
-# Evaluation and Metrics
+# Model Evaluation
 
 selecting model using 3 sets of data:
 - training set ~60%
@@ -74,17 +74,3 @@ A plot of training set size vs cross validation error. Train with $1...m$ increa
     - low training set size: $J_{train}(\Theta)$ low, $J_{CV}(\Theta)$ high.
     - high training set size: $J_{train}(\Theta)$ increases $J_{CV}(\Theta)$ decreases, $J_{train}(\Theta) < J_{CV}(\Theta)$ where difference is significant indicating low generalisation
 
-
----
-## Skewed data:
-Means when a class has significantly less examples then other classes, eg. in 50000 training examples only 0.05% has cancer. We use Precision/Recall to analyse such data.
-
-![Precision and Recall](\images\Precision_recall.jfif)
-
-F score given by: 
-
-$$
-    F_1 = 2 \frac{PR}{P+R}
-$$
-
-can be used to approximate better alogorithms, the higher the F score he better in general.

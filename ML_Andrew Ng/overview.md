@@ -34,4 +34,5 @@ How to choose or modify model to better performance and measure error
 - [K-means](K_means.md).
 - [PCA(Principal component analysis)](PCA.md).
 - [Anomaly detection(Gaussian Distribution)](Anomaly_detection.md).
+- [Recommender Systems(Collaborative filtering)](Collaborative_filtering.md).
 
