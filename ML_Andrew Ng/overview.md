@@ -20,6 +20,7 @@ Machine derives structure to the data on it own, we don't know how the result wi
 ## [Evaluation and metrics](Evaluations_and_metrics.md)
 How to choose or modify model to better performance and measure error
 
+## [Large scale ML](Large_scale.md)
 
 ---
 
@@ -35,4 +36,3 @@ How to choose or modify model to better performance and measure error
 - [PCA(Principal component analysis)](PCA.md).
 - [Anomaly detection(Gaussian Distribution)](Anomaly_detection.md).
 - [Recommender Systems(Collaborative filtering)](Collaborative_filtering.md).
-
